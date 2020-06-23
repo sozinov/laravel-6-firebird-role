@@ -4,7 +4,7 @@ Based on Package [KKSzymanowski/laravel-6-firebird](https://github.com/KKSzymano
 
 ### Installation
 ```
-composer require sozinov/laravel-6-firebird-role
+composer require "sozinov/laravel-6-firebird-role:*"
 ``` 
 Add you database configuration in `config/database.php`
 ```php
