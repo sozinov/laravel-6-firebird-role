@@ -1,7 +1,7 @@
 <h2>Firebird database driver for Laravel 6&nbsp;with role in dsn</h2>
 <p>Based on Package <a href="https://github.com/KKSzymanowski/laravel-6-firebird.git">KKSzymanowski/laravel-6-firebird</a></p>
 <h3><a id="user-content-installation" class="anchor" href="https://github.com/KKSzymanowski/laravel-6-firebird#installation" aria-hidden="true"></a>Installation</h3>
-<pre><code>composer require kkszymanowski/laravel-6-firebird
+<pre><code>composer require sozinov/laravel-6-firebird-role
 </code></pre>
 <p>Add you database configuration in&nbsp;<code>config/database.php</code></p>
 <div class="highlight highlight-text-html-php">
