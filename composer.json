@@ -16,7 +16,8 @@
       "email": "jtvanzuydam@gmail.com"
     }
   ],
-
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": "^7.2",
     "ext-pdo": "*",
