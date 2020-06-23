@@ -1,0 +1,39 @@
+{
+  "name": "sozinov/laravel-6-firebird-role",
+  "description": "A Firebird database driver for Laravel 6 with role in dsn",
+  "license": "MIT",
+  "authors": [
+	{
+      "name":  "Sozinov Evgeniy",
+      "email": "sozinov.evgeniy@gmail.com"
+    },
+    {
+      "name": "Kuba Szymanowski",
+      "email": "kubaszymanowski@gmail.com"
+    },
+    {
+      "name": "Jacques van Zuydam",
+      "email": "jtvanzuydam@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.2",
+    "ext-pdo": "*",
+    "illuminate/support": "^6.0|^7.0",
+    "illuminate/database": "^6.0|^7.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Firebird\\FirebirdServiceProvider"
+      ]
+    }
+  },
+  "autoload":{
+    "psr-4": {
+      "Firebird\\": "src/"
+    }
+  }
+}
