@@ -27,6 +27,6 @@ class FirebirdConnector extends Connector implements ConnectorInterface
         if (isset($config['role'])) {
             $dsn_role .= ";role=" . $config['role'];
         }
-        return $this->createConnection("firebird:dbname={$host}:{$path};charSet={$charset}", $config, $options);
+        return $this->createConnection("firebird:dbname={$host}:{$path};charSet={$charset}".$dsn_role, $config, $options);
     }
 }
